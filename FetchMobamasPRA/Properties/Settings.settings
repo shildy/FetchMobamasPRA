@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FetchMobamasPRA.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IsUpgrade" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MainBounds" Type="System.Drawing.Rectangle" Scope="User">
+      <Value Profile="(Default)">0, 0, 0, 0</Value>
+    </Setting>
+    <Setting Name="MainWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="SMTPServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.server.jp</Value>
+    </Setting>
+    <Setting Name="SMTPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SMTPSSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTPUserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UserID</Value>
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cGFzc3dvcmQ=</Value>
+    </Setting>
+    <Setting Name="SMTPFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">from@mail.server.jp</Value>
+    </Setting>
+    <Setting Name="SMTPTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">to@mail.server.jp</Value>
+    </Setting>
+    <Setting Name="SMTPDisplay" Type="System.String" Scope="User">
+      <Value Profile="(Default)">差出人 表示名</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
