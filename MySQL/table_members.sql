@@ -5,7 +5,7 @@
 CREATE TABLE IF NOT EXISTS `members` (
   `id` int(11) NOT NULL,
   `username` varchar(50) NOT NULL,
-  `password` varchar(255) NOT NULL DEFAULT '888ygmpro',
+  `password` varchar(255) NOT NULL DEFAULT 'password',
   `role` varchar(20) NOT NULL DEFAULT 'guest',
   `producer_name` varchar(50) NOT NULL,
   `producer_rank` varchar(3) NOT NULL DEFAULT 'X',
@@ -22,3 +22,14 @@ CREATE TABLE IF NOT EXISTS `members` (
   `modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4;
 
+--
+-- Indexes for table `members`
+--
+ALTER TABLE `members`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for table `members`
+--
+ALTER TABLE `members`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1;
